@@ -22,7 +22,7 @@ services:
 
   # 主服务
   nekro_agent:
-    image: kromiose/nekro-agent:latest
+    image: kromiose/nekro-agent:latest-arm64
     container_name: ${INSTANCE_NAME}_nekro_agent
     environment:
       - NEKRO_DATA_DIR=${NEKRO_DATA_DIR}
