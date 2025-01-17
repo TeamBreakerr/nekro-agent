@@ -149,7 +149,7 @@ fi
 
 # 拉取 docker-compose.yml 文件
 echo "正在拉取 docker-compose.yml 文件..."
-if ! wget https://raw.githubusercontent.com/KroMiose/nekro-agent/main/docker/docker-compose.yml -O docker-compose.yml; then
+if ! wget https://raw.githubusercontent.com/TeamBreakerr/nekro-agent/refs/heads/main/docker/docker-compose.yml -O docker-compose.yml; then
     echo "Error: 无法拉取 docker-compose.yml 文件，请检查您的网络连接。"
     exit 1
 fi
